@@ -22,63 +22,63 @@ h2 {
   color: white;
   background-color: hotpink;
   border-color: hotpink;
-  box-shadow: none;
   border-radius: 10px;
   padding: 20px 30px;
-  text-align: center;
-  position: relative;
-  top: 2rem;
-  left: 6rem;
+  display: flex;
+  box-align: center;
+  margin: auto;
 }
 
 .html {
   color: grey;
   background-color: white;
   border-color: grey;
-  box-shadow: none;
   border-radius: 30px;
   justify-content: space-evenly;
-  align-items: baseline;
-  position: relative;
-  top: 6rem;
-  right: 9rem;
+  position: absolute;
+  display: flex;
+  box-align: center;
+  margin: auto;
 }
 
 .css {
   color: grey;
   background-color: white;
   border-color: grey;
-  box-shadow: none;
   border-radius: 30px;
   justify-content: space-evenly;
-  align-items: baseline;
-  position: relative;
-  top: 6rem;
-  right: 9rem;
+  position: absolute;
+  display: flex;
+  box-align: center;
+  margin: auto;
 }
 
 .flexbox {
   color: grey;
   background-color: white;
   border-color: grey;
-  box-shadow: none;
   border-radius: 30px;
   justify-content: space-evenly;
-  align-items: baseline;
-  position: relative;
-  top: 6rem;
-  right: 9rem;
+  position: absolute;
+  display: flex;
+  box-align: center;
+  margin: auto;
 }
 
 .positioning {
   color: grey;
   background-color: white;
   border-color: grey;
-  box-shadow: none;
   border-radius: 30px;
   justify-content: space-evenly;
   align-items: baseline;
-  position: relative;
-  top: 6rem;
-  right: 9rem;
+  position: absolute;
+  display: flex;
+  box-align: left;
+  margin: auto;
+}
+.nav {
+  background-color: red;
+  position: fixed;
+  bottom: 0;
 }
